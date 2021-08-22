@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .btn{
+        color: beige;
+        border-radius: 3em;
+        background: rgb(101, 148, 235);
+        padding: 20px 30px;
+    }
+    h1{
+        color: bisque;
+        margin-top: 30px;
+    }
+    body{
+        background: #000;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <h1>Hello {{ username }}</h1>
+    <p>Account Registration</p>
+    <p class="sm">Verification link:</p>
+    <a href="{{link}}/register/{{token}}">Click Here</a>
+</body>
+</html>
